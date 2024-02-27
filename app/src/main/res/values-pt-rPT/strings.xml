@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Minha Aplicação</string>
+    <string name="app_emp_list">Sem nada !</string>
+    <string name="title_activity_add_card">Adicionar Card</string>
+    <string name="card_title">Titulo</string>
+    <string name="card_desc">Descrição</string>
+    <string name="card_btn">Adicionar</string>
+</resources>

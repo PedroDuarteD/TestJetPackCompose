@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My app</string>
+    <string name="app_emp_list">Empty list !</string>
+    <string name="title_activity_add_card">Add Card</string>
+    <string name="card_title">Title</string>
+    <string name="card_desc">Desc</string>
+    <string name="card_btn">Add</string>
+</resources>
