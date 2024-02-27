@@ -78,6 +78,7 @@ import com.pedroduarte.myapplication.data.api.network.repository.CardRepositoryI
 import com.pedroduarte.myapplication.presentation.CardsViewModel
 import com.pedroduarte.myapplication.ui.theme.MyApplicationTheme
 import kotlinx.coroutines.flow.collectLatest
+import okhttp3.internal.wait
 
 class MainActivity : ComponentActivity() {
 
@@ -139,7 +140,9 @@ fun Greeting(viewModel: CardsViewModel, context: Context) {
                      TopAppBar(title = { Text(text = stringResource(id = R.string.app_name)) },)
             },
             floatingActionButton = {
-                FloatingActionButton(onClick = {  context.startActivity(Intent(context, AddCardActivity::class.java)) }) {
+                FloatingActionButton(onClick = {
+                    context.startActivity(Intent(context, AddCardActivity::class.java))
+                }) {
                     Icon(Icons.Filled.Add, "Add card")
 
                 }

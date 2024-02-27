@@ -6,4 +6,6 @@
     <string name="card_title">Title</string>
     <string name="card_desc">Desc</string>
     <string name="card_btn">Add</string>
+    <string name="card_toast_error">Error on create !</string>
+    <string name="card_toast_need">Need something !</string>
 </resources>

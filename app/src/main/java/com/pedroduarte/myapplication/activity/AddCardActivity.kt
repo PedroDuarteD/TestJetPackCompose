@@ -130,11 +130,11 @@ fun Greeting2(viewModel: CardsViewModel, context: Context, activity: Activity) {
                             if(response){
                                 activity.finish()
                             }else{
-                                Toast.makeText(context,"Erro ao criar ",Toast.LENGTH_SHORT).show()
+                                Toast.makeText(context, context.resources.getString(R.string.card_toast_error),Toast.LENGTH_SHORT).show()
                             }
 
                         }else{
-                            Toast.makeText(context,"Falta algo !", Toast.LENGTH_SHORT).show()
+                            Toast.makeText(context,context.resources.getString(R.string.card_toast_need), Toast.LENGTH_SHORT).show()
                         }
                     },
                     stringResource(id = R.string.card_btn),

@@ -6,4 +6,6 @@
     <string name="card_title"></string>
     <string name="card_desc"></string>
     <string name="card_btn"></string>
+    <string name="card_toast_error"></string>
+    <string name="card_toast_need"></string>
 </resources>
